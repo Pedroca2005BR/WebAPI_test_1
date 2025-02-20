@@ -30,3 +30,17 @@ D:\GithubStuff\WebAPI_test_1\obj\Debug\net8.0\refint\WebAPI_test_1.dll
 D:\GithubStuff\WebAPI_test_1\obj\Debug\net8.0\WebAPI_test_1.pdb
 D:\GithubStuff\WebAPI_test_1\obj\Debug\net8.0\WebAPI_test_1.genruntimeconfig.cache
 D:\GithubStuff\WebAPI_test_1\obj\Debug\net8.0\ref\WebAPI_test_1.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\DnsClient.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\SharpCompress.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Snappier.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\ZstdSharp.dll
+D:\GithubStuff\WebAPI_test_1\obj\Debug\net8.0\WebAPI_test_1.sourcelink.json
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
