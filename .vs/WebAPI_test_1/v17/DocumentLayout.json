@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GithubStuff\\WebAPI_test_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\repositories\\mongodbitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:repositories\\mongodbitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\repositories\\iitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:repositories\\iitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\repositories\\inmemitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:repositories\\inmemitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\repositories\\mongodbitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:repositories\\mongodbitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\repositories\\iitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:repositories\\iitemsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\dtos\\updateitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|d:\\githubstuff\\webapi_test_1\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{656079D7-0946-456F-ABC6-271A9CF58933}|WebAPI_test_1.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBoAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T01:02:24.014Z",
               "EditorCaption": ""
@@ -77,40 +77,39 @@
               "RelativeDocumentMoniker": "Settings\\MongoDBSettings.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Settings\\MongoDBSettings.cs",
               "RelativeToolTip": "Settings\\MongoDBSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T00:59:51.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-20T00:57:48.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MongoDBItemsRepository.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\MongoDBItemsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MongoDBItemsRepository.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\MongoDBItemsRepository.cs",
               "RelativeToolTip": "Repositories\\MongoDBItemsRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowBsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T23:17:04.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T23:17:04.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpdateItemDTO.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\DTOs\\UpdateItemDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateItemDTO.cs",
@@ -118,12 +117,11 @@
               "RelativeToolTip": "DTOs\\UpdateItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:40:05.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T18:40:05.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CreateItemDTO.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\DTOs\\CreateItemDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateItemDTO.cs",
@@ -131,12 +129,11 @@
               "RelativeToolTip": "DTOs\\CreateItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:22:21.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T18:22:21.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ItemDTO.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\DTOs\\ItemDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ItemDTO.cs",
@@ -144,21 +141,19 @@
               "RelativeToolTip": "DTOs\\ItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:07:49.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T18:07:49.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IItemsRepository.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\IItemsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IItemsRepository.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\IItemsRepository.cs",
               "RelativeToolTip": "Repositories\\IItemsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T17:49:05.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T17:49:05.631Z"
             },
             {
               "$type": "Document",
@@ -168,27 +163,25 @@
               "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Controllers\\ItemsController.cs",
               "RelativeToolTip": "Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T14:06:49.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T14:06:49.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "InMemItemsRepository.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\InMemItemsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\InMemItemsRepository.cs",
               "ToolTip": "D:\\GithubStuff\\WebAPI_test_1\\Repositories\\InMemItemsRepository.cs",
               "RelativeToolTip": "Repositories\\InMemItemsRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:58:35.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:58:35.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\GithubStuff\\WebAPI_test_1\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",

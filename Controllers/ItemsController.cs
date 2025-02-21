@@ -18,16 +18,17 @@ namespace WebAPI_test_1.Controllers
 
         // Get /items ativa essa funcao
         [HttpGet]
-        public IEnumerable<ItemDTO> GetItems()
+        public async Task<IEnumerable<ItemDTO>> GetItemsAsync()
         {
-            return _repository.GetItems().Select(item => item.AsDTO());
+            // We need to wrap this up in parentheses to tell the computer to wait for the Task to be returned to use the Select method
+            return (await _repository.GetItemsAsync()).Select(item => item.AsDTO());
         }
 
         // Get /items/{id}
         [HttpGet("{id}")]
-        public ActionResult<ItemDTO> GetItem(Guid id)
+        public async Task<ActionResult<ItemDTO>> GetItemAsync(Guid id)
         {
-            var item = _repository.GetItem(id);
+            var item = await _repository.GetItemAsync(id);
 
             if (item == null)
             {
@@ -39,7 +40,7 @@ namespace WebAPI_test_1.Controllers
 
         // POST /items
         [HttpPost]
-        public ActionResult<ItemDTO> CreateItem(CreateItemDTO createItemDTO)
+        public async Task<ActionResult<ItemDTO>> CreateItemAsync(CreateItemDTO createItemDTO)
         {
             Item item = new Item
             {
@@ -49,16 +50,16 @@ namespace WebAPI_test_1.Controllers
                 CreatedDate = DateTimeOffset.UtcNow
             };
 
-            _repository.CreateItem(item);
+            await _repository.CreateItemAsync(item);
 
-            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item.AsDTO());
+            return CreatedAtAction(nameof(GetItemAsync), new { id = item.Id }, item.AsDTO());
         }
 
         // PUT /items/{id}
         [HttpPut("{id}")]
-        public ActionResult UpdateItem(Guid id, UpdateItemDTO updateItemDTO)
+        public async Task<ActionResult> UpdateItemAsync(Guid id, UpdateItemDTO updateItemDTO)
         {
-            var item = _repository.GetItem(id);
+            var item = await _repository.GetItemAsync(id);
 
             if (item == null)
             {  
@@ -72,23 +73,23 @@ namespace WebAPI_test_1.Controllers
                 Price = updateItemDTO.Price,
             };
 
-            _repository.UpdateItem(updated);
+            await _repository.UpdateItemAsync(updated);
 
             return NoContent();
         }
 
         // DELETE items/{id}
         [HttpDelete("{id}")]
-        public ActionResult DeleteItem(Guid id)
+        public async Task<ActionResult> DeleteItemAsync(Guid id)
         {
-            var item = _repository.GetItem(id);
+            var item = await _repository.GetItemAsync(id);
 
             if (item == null)
             {
                 return NotFound();
             }
 
-            _repository.DeleteItem(id);
+            await _repository.DeleteItemAsync(id);
 
             return NoContent();
         }

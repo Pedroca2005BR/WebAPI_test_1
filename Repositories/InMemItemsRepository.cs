@@ -11,33 +11,36 @@ namespace WebAPI_test_1.Repositories
             new Item {Id = Guid.NewGuid(), Name = "Strength Potion", Price = 49.99M, CreatedDate = DateTimeOffset.UtcNow },
         };
 
-        public IEnumerable<Item> GetItems()
+        public async Task<IEnumerable<Item>> GetItemsAsync()
         {
-            return items;
+            return await Task.FromResult(items);
         }
 
-        public Item GetItem(Guid id)
+        public async Task<Item> GetItemAsync(Guid id)
         {
 #pragma warning disable CS8603 // Possível retorno de referência nula.
-            return items.Where(item => item.Id == id).SingleOrDefault();
+            return await Task.FromResult(items.Where(item => item.Id == id).SingleOrDefault());
 #pragma warning restore CS8603 // Possível retorno de referência nula.
         }
 
-        public void CreateItem(Item item)
+        public async Task CreateItemAsync(Item item)
         {
             items.Add(item);
+            await Task.CompletedTask;
         }
 
-        public void UpdateItem(Item newItem)
+        public async Task UpdateItemAsync(Item newItem)
         {
             var index = items.FindIndex(item => item.Id == newItem.Id);
             items[index] = newItem;
+            await Task.CompletedTask;
         }
 
-        public void DeleteItem(Guid id)
+        public async Task DeleteItemAsync(Guid id)
         {
             var index = items.FindIndex(items => items.Id == id);
             items.RemoveAt(index);
+            await Task.CompletedTask;
         }
     }
 }

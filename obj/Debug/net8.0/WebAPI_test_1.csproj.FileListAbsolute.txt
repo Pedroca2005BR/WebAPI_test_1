@@ -44,3 +44,11 @@ D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
 D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\HealthChecks.MongoDb.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GithubStuff\WebAPI_test_1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
